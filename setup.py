@@ -88,7 +88,7 @@ if sys.version_info < (2, 7, 0):
 
 
 setup(name="watchdog",
-      version=version.VERSION_STRING,
+      version=version.VERSION_STRING + '-hp',
       description="Filesystem events monitoring",
       long_description=open('README.rst').read(),
       author="Yesudeep Mangalapilly",
